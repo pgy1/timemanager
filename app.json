@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/todos/todos",
+    "pages/task/task",
+    "pages/logs/logs",
+    "pages/timeset/timeset",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3197ed",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "iconPath": "images/home_48px.png",
+        "selectedIconPath": "images/home_48px.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/checkout_shoppingcart_48px.png",
+        "selectedIconPath": "images/checkout_shoppingcart_48px.png",
+        "pagePath": "pages/todos/todos",
+        "text": "今日待办"
+      },
+      {
+        "iconPath": "images/manage_user_48px.png",
+        "selectedIconPath": "images/manage_user_48px.png",
+        "pagePath": "pages/timeset/timeset",
+        "text": "我的"
+      }
+    ]
+  }
+}
