@@ -5,7 +5,7 @@
     bindinput="updateDraft" 
     value="{{draft}}" 
     class="new-todo"/>
-  <text style="display: {{draft ? 'inline': 'none'}}" class="add tappable" ontap="addTodo">添加</text>
+  <text class="add" ontap="addTodo">添加</text>
 </view>
 <view class="todo-list">
 <block wx:for="{{todos}}" wx:for-item="todo" wx:for-index="objectId" wx:key="objectId">
@@ -17,7 +17,7 @@
       class="todo-icon tappable" 
       size="24"/>
     <text data-id="{{todo.id}}" 
-      class="todo-text tappable {{todo.done ? 'done': ''}}"
+      class="todo-text {{todo.done ? 'done': ''}}"
       ontap="goTodo">
       {{todo.content}}
     </text>
