@@ -1,6 +1,6 @@
 # 微信小程序--时间管理工具
 ##### 欢迎加入队伍：
-![](./images/profile_20190123114723.jpg)
+![](./images/profile.jpg)
 ![](./images/qrcode_for_gh_a5ec862d4028_258.jpg)
 
 
